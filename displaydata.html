@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="container">
+        <h1>total count:<span id="Studentcount">0</span></h1>
+        <h1>Average score:<span id="Averagescore">0</span></h1>
+        <form id="form">
+            <input type="text" id="name" placeholder="enter name">
+            <select name="" id="course">
+                <option value="">select</option>
+                <option value="web11">web11</option>
+                <option value="web12">web12</option>
+                <option value="web13">web13</option>
+            </select>
+            <select name="" id="program">
+                <option value="">select</option>
+                <option value="dsa">dsa</option>
+                <option value="coding">coding</option>
+                <option value="UI">UI</option>
+            </select>
+            <input type="number" id="code" placeholder="enter code" min="1">
+            <select name="" id="batch">
+                <option value="">select</option>
+                <option value="unit-1">unit-1</option>
+                <option value="unit-2">unit-2</option>
+                <option value="unit-3">unit-3</option>
+            </select>
+            <input type="number" id="score" placeholder="enter score" min="1" max="10">
+            <input type="submit" id="submit">
+        </form>
+        <button id="deleteall">delete all</button>
+    </div>
+    <div id="result">
+
+    </div>
+</body>
+<script src="./js/displaydata2.js"></script>
+
+</html>
